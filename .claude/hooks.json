@@ -1,0 +1,39 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"[$(date '+%Y-%m-%d %H:%M:%S')]\" >> ~/.claude/bash-log.txt && jq -r '.tool_input.command' >> ~/.claude/bash-log.txt"
+          },
+          {
+            "type": "command",
+            "command": "CMD=$(jq -r '.tool_input.command'); if echo \"$CMD\" | grep -E 'rm -rf|dd if=|mkfs|:(){ :|:& };:' > /dev/null; then echo '{\"decision\": \"block\", \"reason\": \"Dangerous command detected\"}'; fi"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"[$(date '+%Y-%m-%d %H:%M:%S')] Session started\" >> ~/.claude/session-log.txt"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"[$(date '+%Y-%m-%d %H:%M:%S')] Session ended\" >> ~/.claude/session-log.txt"
+          }
+        ]
+      }
+    ]
+  }
+}
