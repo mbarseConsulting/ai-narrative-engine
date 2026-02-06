@@ -1,0 +1,75 @@
+# Presets de style prédéfinis
+# Utilisation: /roleplay @campagne/ --preset=noir
+
+presets:
+  epic:
+    description: "Aventure héroïque classique"
+    style: epic
+    pacing: moderate
+    creativity: suggestive
+    tone: "Héroïque, grandiose, enjeux élevés"
+    vocabulary: "Noble, inspirant, descriptif"
+    references: ["Tolkien", "Brandon Sanderson", "Robert Jordan"]
+
+  dark:
+    description: "Sombre et mature"
+    style: dark
+    pacing: slow
+    creativity: suggestive
+    tone: "Oppressant, cynique, moralement ambigu"
+    vocabulary: "Cru, réaliste, atmosphérique"
+    references: ["Joe Abercrombie", "George R.R. Martin", "Andrzej Sapkowski"]
+
+  horror:
+    description: "Horreur et tension"
+    style: horror
+    pacing: slow
+    creativity: provocative
+    tone: "Angoissant, claustrophobe, paranoïaque"
+    vocabulary: "Sensoriel, inquiétant, viscéral"
+    references: ["H.P. Lovecraft", "Stephen King", "Clive Barker"]
+
+  humorous:
+    description: "Comédie et légèreté"
+    style: humorous
+    pacing: moderate
+    creativity: provocative
+    tone: "Léger, absurde, satirique"
+    vocabulary: "Vif, décalé, expressif"
+    references: ["Terry Pratchett", "Douglas Adams", "Scott Lynch"]
+
+  romantic:
+    description: "Romance et relations"
+    style: romantic
+    pacing: slow
+    creativity: suggestive
+    tone: "Émotionnel, intime, nuancé"
+    vocabulary: "Poétique, sensible, évocateur"
+    references: ["Jacqueline Carey", "Robin Hobb", "Juliet Marillier"]
+
+  noir:
+    description: "Polar et mystère"
+    style: dark
+    pacing: moderate
+    creativity: suggestive
+    tone: "Mystérieux, cynique, urbain"
+    vocabulary: "Sec, percutant, atmosphérique"
+    references: ["Raymond Chandler", "Dashiell Hammett", "China Miéville"]
+
+  pulp:
+    description: "Action et aventure rapide"
+    style: epic
+    pacing: intense
+    creativity: provocative
+    tone: "Exaltant, mouvementé, spectaculaire"
+    vocabulary: "Dynamique, punchy, visuel"
+    references: ["Robert E. Howard", "Edgar Rice Burroughs", "Indiana Jones"]
+
+  intrigue:
+    description: "Politique et complots"
+    style: dark
+    pacing: slow
+    creativity: suggestive
+    tone: "Calculateur, tendu, stratégique"
+    vocabulary: "Précis, sous-entendu, diplomatique"
+    references: ["Dune", "Game of Thrones", "The Lies of Locke Lamora"]

@@ -1,0 +1,13 @@
+# État des personnages pendant la session
+# Géré par session-chronicler
+
+# Format pour chaque personnage:
+# character_name:
+#   status: healthy | injured | critical
+#   injuries: []
+#   inventory_changes: ["+objet", "-objet"]
+#   relationship_updates:
+#     - npc: "nom_pnj"
+#       change: "description du changement"
+#   emotional_state: "état actuel"
+#   notes: "observations importantes"

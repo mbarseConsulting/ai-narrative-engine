@@ -1,0 +1,21 @@
+session_id: "{{SESSION_ID}}"
+started: "{{TIMESTAMP}}"
+ended: null
+status: in_progress  # in_progress | paused | completed
+
+# Universe & Style
+universe: "{{UNIVERSE}}"
+style: "{{STYLE}}"
+pacing: "{{PACING}}"
+creativity: "{{CREATIVITY}}"
+
+# Characters
+player_character: "{{CHARACTER}}"
+active_npcs: []
+
+# Current State
+current_scene: "{{OPENING_SCENE}}"
+current_location: "{{STARTING_LOCATION}}"
+
+# Summary (updated at checkpoints)
+summary: ""

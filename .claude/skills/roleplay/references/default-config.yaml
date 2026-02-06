@@ -1,0 +1,33 @@
+# Configuration par défaut pour les sessions de roleplay
+# Utilisée quand l'utilisateur ne spécifie pas de valeurs
+
+# Configuration story-weaver
+story_weaver:
+  style: epic
+  pacing: moderate
+  creativity: suggestive
+  npc_depth: moderate
+
+# Configuration character-incarnator
+character_incarnator:
+  initiative: moderate
+  format: narrative
+  fidelity: strict
+
+# Configuration lore-keeper
+lore_keeper:
+  intervention_threshold: major  # major | minor | all
+  suggest_alternatives: true
+
+# Configuration session-chronicler
+session_chronicler:
+  auto_save_interval: null  # null = pas d'auto-save
+  checkpoint_on_scene_change: true
+  detail_level: moderate  # minimal | moderate | detailed
+
+# Marqueurs OOC reconnus
+ooc_markers:
+  - "[OOC]"
+  - "[OOC:"
+  - "//"
+  - "(("

@@ -1,0 +1,12 @@
+# Lieux visités pendant la session
+# Géré par session-chronicler
+
+locations_visited: []
+
+# Format pour chaque lieu:
+# - name: "Nom du lieu"
+#   first_visit: "evt-XXX"
+#   times_visited: 1
+#   discovered_features: []
+#   npcs_present: []
+#   notes: "Ce qui s'y est passé ou a été découvert"

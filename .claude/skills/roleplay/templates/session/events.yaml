@@ -1,0 +1,16 @@
+# Événements majeurs de la session
+# Géré par session-chronicler
+# Différent de timeline: ici uniquement les événements avec impact durable
+
+major_events: []
+
+# Format pour chaque événement majeur:
+# - id: "major-001"
+#   title: "Titre court"
+#   timeline_ref: "evt-XXX"
+#   type: plot_point | character_development | world_change | discovery
+#   description: "Description détaillée"
+#   impact: "Conséquences durables sur l'histoire"
+#   related_characters: []
+#   related_locations: []
+#   flags_set: []  # Pour tracker des états narratifs

@@ -1,0 +1,13 @@
+# Timeline des événements de la session
+# Géré par session-chronicler
+
+events: []
+
+# Format d'un événement:
+# - id: "evt-001"
+#   timestamp: "Jour 1, Crépuscule"
+#   type: arrival | encounter | decision | combat | discovery | dialogue
+#   description: "Description de l'événement"
+#   characters_involved: [personnage1, personnage2]
+#   location: "Nom du lieu"
+#   consequences: ["Conséquence 1", "Conséquence 2"]

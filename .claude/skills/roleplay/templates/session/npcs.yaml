@@ -1,0 +1,13 @@
+# PNJ rencontrés pendant la session
+# Géré par session-chronicler
+
+npcs_encountered: []
+
+# Format pour chaque PNJ:
+# - name: "Nom du PNJ"
+#   first_encounter: "evt-XXX"
+#   disposition: friendly | neutral | hostile | unknown
+#   information_given: ["info 1", "info 2"]
+#   information_received: ["ce qu'on lui a dit"]
+#   current_location: "Dernier lieu connu"
+#   notes: "Observations, indices sur ses motivations"
